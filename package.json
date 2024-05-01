@@ -17,12 +17,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""  
+  "description": ""
 }
